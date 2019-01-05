@@ -20,7 +20,8 @@ namespace BusinessLayer
         
         public Task GetTask(int id)
         {
-            Task task = db.Tasks.Find(id);        
+            Task task = db.Tasks.Find(id);
+
             return task;
         }
 
